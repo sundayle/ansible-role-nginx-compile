@@ -1,0 +1,12 @@
+---
+ngx_path: /usr/local/webserver/nginx
+ngx_conf_path: /usr/local/webserver/nginx/conf
+ngx_conf_file: /usr/local/webserver/nginx/conf/nginx.conf
+ngx_vhost_path: /usr/local/webserver/nginx/conf/conf.d
+ngx_default_vhost_file: /usr/local/webserver/nginx/conf/conf.d/default.conf
+ngx_pidfile: /usr/local/webserver/nginx/logs/nginx.pid
+ngx_log_path: /data/logs/nginx
+ngx_user: "www"
+ngx_group: "www"
+ngx_package: "nginx-1.12.2.tar.gz"
+ngx_source_path: "/tmp/nginx-1.12.2"
