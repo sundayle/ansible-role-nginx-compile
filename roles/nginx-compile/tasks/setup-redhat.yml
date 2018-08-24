@@ -46,7 +46,7 @@
 #  notify: start nginx
 
 - name: copy nginx service
-  template: src=ubuntu.service dest=/etc/init.d/nginx owner={{ ngx_user }} group={{ ngx_user }} mode=0755
+  template: src=redhat.service dest=/etc/init.d/nginx owner={{ ngx_user }} group={{ ngx_user }} mode=0755
   when: ansible_distribution_major_version <= "6"
   register: result
 
